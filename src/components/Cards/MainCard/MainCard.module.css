@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.description p {
+  text-align: right;
+}
+.button {
+  width: 100%;
+}
+.button button {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: #363636;
+  font-size: 1.2rem;
+  padding: 8px;
+}

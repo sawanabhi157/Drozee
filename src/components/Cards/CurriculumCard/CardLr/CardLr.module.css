@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1.5px solid black;
+}
+.inner__container {
+  width: 90%;
+}
+.p2__title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.list {
+  font-weight: 600;
+}

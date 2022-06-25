@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.title__container {
+  width: 89%;
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  width: 68%;
+  text-align: start;
+}
+.title h1 {
+  font-size: 5.1rem;
+  font-family: "Montserrat";
+  font-style: Black;
+  line-height: 97.68px;
+}
+.card__container {
+  width: 89%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.card {
+  width: 273px;
+  height: 168px;
+}
+.arrow__top {
+  position: absolute;
+  top: 19%;
+  left: 29%;
+}
+.arrow__btm {
+  position: absolute;
+  top: 59%;
+  left: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    height: auto;
+  }
+  .title__container {
+    width: 90%;
+  }
+  .title {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 2.8rem;
+    line-height: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .arrow__top {
+    display: none;
+  }
+  .arrow__btm {
+    display: none;
+  }
+}

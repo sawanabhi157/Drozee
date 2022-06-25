@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.logo {
+  padding: 22px;
+  background-color: #000000;
+  color: white;
+}
+.p1__title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.p2__desciption {
+  margin-top: -5px;
+  font-size: 1rem;
+  line-height: 22px;
+}

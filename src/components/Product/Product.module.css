@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid__cards {
+  width: 90%;
+  display: grid;
+  grid-gap: 75px;
+  grid-template-columns: repeat(auto-fit, max(292px));
+  grid-auto-rows: 419px;
+  justify-content: center;
+  margin-bottom: 126px;
+}
+
+.title {
+  width: 90%;
+}
+.title h1 {
+  font-size: 3.56rem;
+  font-family: "Montserrat";
+  line-height: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .title h1 {
+    font-size: 1.8rem;
+    font-family: "Montserrat";
+    line-height: 100%;
+  }
+  .title {
+    width: 90%;
+    text-align: start;
+  }
+  .grid__cards {
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, max(100%));
+    margin-bottom: 10px;
+  }
+}
